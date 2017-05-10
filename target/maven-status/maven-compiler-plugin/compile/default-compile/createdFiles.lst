@@ -1,0 +1,8 @@
+com\hello\GreetingController.class
+com\wechat\service\UserServiceImpl.class
+com\hello\HelloMaven.class
+com\wechat\dao\UserDao.class
+com\wechat\controller\GreetingController.class
+com\hello\Application.class
+com\wechat\domain\User.class
+com\wechat\service\UserService.class

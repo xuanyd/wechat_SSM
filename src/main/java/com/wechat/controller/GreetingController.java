@@ -17,7 +17,7 @@ public class GreetingController {
     @RequestMapping("/greeting")
     public String greeting(@RequestParam(value="name", required=false, defaultValue="World") String name, Model model) {
         model.addAttribute("name", name);
-        User user = userService.selectUserById(5);
+        User user = userService.selectUserById(new Integer(5));
         System.out.println("--------" + user);
         return "listuser";
     }

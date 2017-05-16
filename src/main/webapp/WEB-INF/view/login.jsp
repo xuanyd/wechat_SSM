@@ -11,12 +11,10 @@
 <head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title></title>
+<title>login</title>
 <base href="<%=basePath%>"/>
-<script type="text/javascript">
-	window.location.href="login"; 
-</script>
 </head>
 <body>
+
 </body>
 </html>

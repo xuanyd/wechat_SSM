@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hello vue</title>
+	<meta charset="utf-8">
+	<script src="https://unpkg.com/vue"></script>
+	
+</head>
+<body>
+	<div id="app">
+		<p>按钮被点击了"{{ count }}"次</p>
+		<button v-on:click="count ++">Click</button>
+		<br>
+		<br>
+		<p>自定义事件</p>
+		<button v-on:click="greet">Click</button>	
+	</div>
+	<script type="text/javascript">
+		new Vue({
+			el: "#app",
+			data: {
+				count: 0,
+				name: "vue.js"
+			},
+			methods: {
+				greet: fucntion (event) {
+					alert(this.name);
+				}
+			}
+		})
+	</script>
+</body>
+</html>
